@@ -1,15 +1,3 @@
-### 📌 **Estrutura do README.md**
-1. 📖 Introdução  
-2. 📦 Materiais e Componentes  
-3. 🔧 Montagem e Esquema Eletrônico  
-4. 💾 Instalação e Configuração  
-5. 🚀 Uso do Robô  
-6. 🤖 Comandos e Controle  
-7. 🛠️ Contribuição  
-8. 📜 Licença  
-
----
-
 ## 🏎️ TwoWheelRobot
 ![TwoWheelRobot](https://blog.eletrogate.com/wp-content/uploads/2022/04/image-1024x683.png)
 
