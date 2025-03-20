@@ -43,9 +43,9 @@ Para montar o robô, foram utilizados os seguintes componentes:
 - Jumpers macho-macho 20 cm
 
 ### 🔹 **Componentes Diversos**
-- Resistor 330Ω 1/4W (10 unidades)
-- Resistor 22kΩ 1/4W (10 unidades)
-- Resistor 10kΩ 1/4W (10 unidades)
+- Resistor 330Ω 1/4W 
+- Resistor 22kΩ 1/4W 
+- Resistor 10kΩ 1/4W 
 - LED Difuso Verde 5mm
 - Mini Chave Gangorra 2 Terminais
 - Jogo de parafusos e acessórios
