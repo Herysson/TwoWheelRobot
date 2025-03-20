@@ -1,7 +1,7 @@
 ## 🏎️ TwoWheelRobot
 ![TwoWheelRobot](https://blog.eletrogate.com/wp-content/uploads/2022/04/image-1024x683.png)
 
-**TwoWheelRobot** é um robô de duas rodas controlado remotamente por um aplicativo. O projeto segue o tutorial disponível no [Blog Eletrogate](https://blog.eletrogate.com/robo-controle-remoto-por-app/) e pode ser modificado para novas funcionalidades.  
+**TwoWheelRobot** é um robô de duas rodas controlado remotamente por um aplicativo. O projeto segue parcialmente o tutorial disponível no [Blog Eletrogate](https://blog.eletrogate.com/robo-controle-remoto-por-app/) e pode ser modificado para novas funcionalidades.  
 
 ## 📦 Materiais e Componentes  
 Para montar o robô, foram utilizados os seguintes componentes:
