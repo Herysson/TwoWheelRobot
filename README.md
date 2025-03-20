@@ -1,5 +1,3 @@
----
-
 ### 📌 **Estrutura do README.md**
 1. 📖 Introdução  
 2. 📦 Materiais e Componentes  
@@ -87,13 +85,26 @@ Abra a **Arduino IDE** e instale as bibliotecas:
 
 ## 🤖 Comandos e Controle
 O robô aceita os seguintes comandos via aplicativo:
-| Comando | Ação               |
-|---------|--------------------|
-| `F`     | Avançar           |
-| `B`     | Recuar            |
-| `L`     | Virar à Esquerda  |
-| `R`     | Virar à Direita   |
-| `S`     | Parar             |
+Agora que temos os comandos corretos definidos no código, vou atualizar a **tabela de comandos** no `README.md` e também corrigir o arquivo `motor_test.ino` para garantir que ele esteja alinhado com os comandos do robô.
+
+---
+
+### 📌 **Atualização da Tabela de Comandos no `README.md`**
+A nova tabela de comandos, baseada nas definições do código, ficará assim:
+
+| Comando  | Ação                           |
+|----------|--------------------------------|
+| `F`      | Mover para frente             |
+| `B`      | Mover para trás               |
+| `L`      | Virar para a esquerda         |
+| `R`      | Virar para a direita          |
+| `X`      | Acelerar os motores           |
+| `S`      | Reduzir a velocidade          |
+| `P`      | Pausar                        |
+| `T`      | Diminuir tempo de curva       |
+| `C`      | Aumentar tempo de curva       |
+
+
 
 ## 🛠️ Contribuição
 Se quiser contribuir, siga os passos:
@@ -105,6 +116,3 @@ Se quiser contribuir, siga os passos:
 ## 📜 Licença
 Este projeto está licenciado sob a licença **MIT**. Veja o arquivo [`LICENSE`](LICENSE) para mais detalhes.
 
----
-
-Se precisar de mais ajustes ou quiser adicionar mais detalhes, me avise! 🚀
