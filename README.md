@@ -72,34 +72,41 @@ Abra a **Arduino IDE** e instale as bibliotecas:
 - **Testar os motores**: Execute `motor_test.ino` para validar o funcionamento.  
 
 ## 🤖 Comandos e Controle
-O robô aceita os seguintes comandos via aplicativo:
-Agora que temos os comandos corretos definidos no código, vou atualizar a **tabela de comandos** no `README.md` e também corrigir o arquivo `motor_test.ino` para garantir que ele esteja alinhado com os comandos do robô.
+
+O robô responde aos seguintes comandos enviados via Serial/Bluetooth:
+
+| Comando | Ação                                        |
+| ------- | ------------------------------------------- |
+| `F`     | Mover para frente                           |
+| `B`     | Mover para trás                             |
+| `L`     | Girar para a esquerda                       |
+| `R`     | Girar para a direita                        |
+| `G`     | Frente curvando à esquerda                  |
+| `H`     | Frente curvando à direita                   |
+| `I`     | Ré curvando à esquerda                      |
+| `J`     | Ré curvando à direita                       |
+| `S`     | Parar motores                               |
+| `X`     | Ligar LEDs (faróis)                         |
+| `x`     | Desligar LEDs                               |
+| `Y`     | Acionar buzina                              |
+| `0`–`9` | Ajustar velocidade (0 = parado, 9 = máxima) |
 
 ---
 
-### 📌 **Atualização da Tabela de Comandos no `README.md`**
-A nova tabela de comandos, baseada nas definições do código, ficará assim:
+## ⚡ Observações importantes de hardware
 
-| Comando  | Ação                           |
-|----------|--------------------------------|
-| `F`      | Mover para frente             |
-| `B`      | Mover para trás               |
-| `L`      | Virar para a esquerda         |
-| `R`      | Virar para a direita          |
-| `X`      | Acelerar os motores           |
-| `S`      | Reduzir a velocidade          |
-| `P`      | Pausar                        |
-| `T`      | Diminuir tempo de curva       |
-| `C`      | Aumentar tempo de curva       |
+* Nunca alimente os motores pelo 5V do Arduino
+* Use fonte separada para motores (ex: 6–9V)
+* Sempre conecte **GND da fonte dos motores ao GND do Arduino**
 
-
+---
 
 ## 🛠️ Contribuição
-Se quiser contribuir, siga os passos:
-1. **Fork** o repositório.
-2. Crie um **branch** (`git checkout -b feature-nova`).
-3. Faça as modificações e **commit** (`git commit -m "Adicionei nova feature"`).
-4. Envie um **pull request**.
+
+1. Faça um fork do projeto
+2. Crie uma branch (`git checkout -b minha-feature`)
+3. Commit suas alterações (`git commit -m "Minha melhoria"`)
+4. Abra um Pull Request
 
 ## 📜 Licença
 Este projeto está licenciado sob a licença **MIT**. Veja o arquivo [`LICENSE`](LICENSE) para mais detalhes.
